@@ -1,0 +1,56 @@
+{
+  "name": "artmandi_mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.4",
+    "@react-native-community/datetimepicker": "^3.4.7",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-picker/picker": "^1.15.0",
+    "@react-navigation/drawer": "^5.12.5",
+    "@react-navigation/material-bottom-tabs": "^5.3.15",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "axios": "^0.21.1",
+    "formik": "^2.2.6",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-countdown-component": "^2.7.1",
+    "react-native-countdown-timer-hooks": "^1.0.3",
+    "react-native-formik": "^1.7.8",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-picker": "^4.0.3",
+    "react-native-paper": "^4.7.2",
+    "react-native-reanimated": "^2.1.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.0.0",
+    "react-native-stopwatch-timer": "^0.0.21",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-webview": "^11.4.3",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/runtime": "^7.13.10",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.23.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
